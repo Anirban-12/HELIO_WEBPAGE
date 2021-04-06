@@ -1,0 +1,321 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #dedede;
+}
+
+/*Navbar starts Here */
+#my-navbar{
+    background: none;
+    border: 0;
+    color: #fff;
+    position: absolute;
+    z-index: 10;
+    width: 100%;
+    padding-left: 10px;
+}
+
+#my-navbar a{
+    color: #fff;
+}
+
+#my-navbar .navbar-toggle{
+  display: block;
+  border: 0;
+}
+#my-navbar .navbar-header{
+    float: none;
+    
+}
+#my-navbar .navbar-header a{
+    position: relative;
+    top: 12px;   
+}
+#my-navbar .navbar-toggle:hover{
+    background: none;
+    cursor: pointer;
+}
+#my-navbar .icon-bar-left{
+    float: left;
+}
+#my-navbar .icon-bar{
+    background-color: #fff;
+    font-size: larger;
+}
+#my-navbar .icon-right{
+    float: right;
+    position: relative;
+    top: -5px;
+    padding-left: 8px;
+}
+#my-navbar .navbar-right{
+    float: left !important;
+}
+.my-container{
+    padding: 0;
+    color: #fff;
+}
+
+/*Slider starts Here */
+.carousel .item-1 {
+    background-image: url(../images/slide03.jpg);
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+}
+.carousel .item-2 {
+    background-image: url(../images/slide02.jpg);
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+}
+.carousel .item-3 {
+    background-image: url(../images/slide01.jpg);
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+}
+.carousel .item-4 {
+    background-image: url(../images/slide04.jpg);
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+}
+.carousel .item-5{
+    background-image: url(../images/slide05.jpg);
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+}
+
+/* Text-Banner starts here*/
+.banner-text{
+    position: absolute;
+    top: 40%;
+    left: 32%;
+    z-index: 11;
+    text-align: center;
+}
+
+.banner-text p{
+    font-weight: 200;
+    font-size: 10px;
+    letter-spacing: 4px;
+    color:whitesmoke;
+}
+.banner-text hr{
+    width: 50%;
+}
+.banner-text h1{
+    font-size: 80px;
+    font-weight:lighter;
+}
+
+/*Two section starts Here*/
+.my-section{
+ padding: 50px 50px;
+}
+
+.my-section img{
+    width: 100%;
+}
+
+.left{
+    background-color: white;
+    width: 96%;
+    text-align:center;
+}
+
+.right{
+    background-color:#fff;
+    width: 95%;
+    margin-left: 5%;
+    text-align: center;
+}
+
+.my-section h5{
+    text-align: center;
+    padding-top: 15px;
+    color: gray;
+    letter-spacing: 2px;
+    font-size: 10px;
+}
+.my-section hr{
+    width: 40%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.my-section h2{
+    text-align: center;
+    font-size: 22px;
+    margin-top: 10px;
+}
+.my-section p{
+    padding: 10px 30px 10px 30px;
+    text-align: left;
+    font-size: 13px;
+    color: lightgray;
+    line-height: 24px;
+}
+.my-section button{
+    width: 150px;
+    height: 40px;
+    background: none;
+    font-size: 12px;
+    font-family: 'Poppins', sans-serif;
+    border: 2px solid #dfdfdf; 
+    margin-bottom: 30px;
+}
+
+/*Scrolling image with Morbi maximus parts starts here*/
+.my-area{
+   height: 180px;
+   background-image: url(../images/slide04.jpg);
+   background-attachment: fixed;
+   text-align: center;
+   color: #fff;
+}
+.my-area h6{
+    text-align: center;
+    padding-top: 45px;
+    letter-spacing: 2px;
+    font-size: 11px;
+}
+.my-area hr{
+    width: 42%;
+    margin-bottom: 10px;
+}
+.my-area h2{
+    font-size: 25px;
+    margin-top: 0px;
+}
+
+/*Four images part statrs Here */
+.content-center{
+    text-align: center;
+}
+.content-center h6{
+    margin-top: 70px;
+    letter-spacing: 2px;
+    font-size: 11px;
+}
+.content-center hr{
+    width: 42%;
+    margin-bottom: 10px;
+}
+.content-center h2{
+    font-size: 25px;
+    margin-top: 0px;
+    margin-bottom: 70px;
+}
+
+.set-img img{
+    width: 96%;
+    margin-bottom: 10%;
+    border: 10px solid #fff;
+}
+.set-img .sight{
+    margin-left: 4%;
+}
+
+/*footer part starts here*/
+.foot
+{
+    height: 120px;
+    background-color: #000;
+    text-align: center;
+}
+.foot span{
+    margin-top: 45px;
+    font-size: 22px;
+    padding: 10px;
+    color: gray;
+}
+.foot span a{
+    color: gray;
+}
+
+
+/* Media Query starts here*/
+
+@media(max-width:992px){
+    .set-img .sight{
+        margin-left: 0px;
+    }
+    .banner-text{
+        left: 28%; 
+    }    
+    .banner-text h1{
+        font-size: 65px;
+    }
+    .banner-text p{
+        font-size: 9px;
+    }
+    .banner-text hr{
+        width: 45%;
+    }
+
+    .left h5,.right h5{
+        font-size: 10px;
+    }
+    .left h2,.right h2{
+        font-size: 20px;
+    }
+    .left p,.right p{
+        font-size: 12px;
+        line-height: 24px;
+    }
+    .my-area h6{
+        font-size: 10px;
+    }
+    .my-area h2{
+        font-size: 20px;
+    }
+    .content-center h6{
+        font-size: 10px;
+    }
+    .content-center hr{
+        width: 42%;
+        margin-bottom: 10px;
+    }
+    .content-center h2{
+        font-size: 20px;
+    }
+    .foot span{
+        font-size: 20px;
+        padding: 8px;
+       
+    }
+    
+}
+
+/* Second Media Query*/
+@media(max-width:767px){
+    .left{
+        width: 100%;
+    }
+    .right{
+        width: 100%;
+        margin-left: 0px;
+        margin-top: 15px;
+    }
+    #my-navbar span,a{
+        font-size: 12px;
+    }
+    .banner-text{
+        left: 20%; 
+    } 
+    .banner-text h1{
+        font-size: 55px;
+    }
+    .banner-text p{
+        line-height: 20px;
+    }
+    .my-area h6{
+        line-height: 20px;
+         
+      }
+      .content-center h6{
+        line-height: 20px;
+    }
+   
+}
